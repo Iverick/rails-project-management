@@ -1,24 +1,16 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
+Tasks management application powered by Rails framework.
 
 * Ruby version
-
-* System dependencies
-
-* Configuration
+Versions requirements
+- `Ruby==3.1.1`
+- `Rails==6.1.5.1`
 
 * Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
+SQLite database for the development.
 
 * Deployment instructions
+`rails db:migrate` runs db migrations
 
-* ...
+`rails s` starts the development server
